@@ -114,6 +114,7 @@ Object* checkDeclaredLValueIdent(char* name) {
   switch (obj->kind)
   {
   case OBJ_VARIABLE:
+    break;
   case OBJ_PARAMETER:
     break;
   case OBJ_CONSTANT:
